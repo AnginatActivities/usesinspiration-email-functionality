@@ -25,7 +25,7 @@ app.post("/contact",(req,res)=>{
 
     const mailOptions = {
         from: process.env.USER,
-        to: "aletishiva218@gmail.com",
+        to: "mail@usesinspiration.com",
         subject: "USES Inspiration Website Visitor",
         text: "name:"+name+"\n\nemail:"+email+"\n\nmessage:"+message
       };
@@ -55,7 +55,7 @@ app.post("/contact_universal_property",(req,res)=>{
 
   const mailOptions = {
       from: process.env.USER,
-      to: "aletishiva218@gmail.com",
+      to: "properties@usesindia.com",
       subject: "USES Inspiration Website Visitor on Universal Property",
       text: "name:"+name+"\n\nemail:"+email+"\n\nphone:"+phone+"\n\nservice:"+service+"\n\nmessage:"+message
     };
